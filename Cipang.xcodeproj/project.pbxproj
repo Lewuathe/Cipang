@@ -23,6 +23,11 @@
 		872708A21861C99000E9B1DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 872708A01861C99000E9B1DA /* InfoPlist.strings */; };
 		872708A41861C99000E9B1DA /* CipangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708A31861C99000E9B1DA /* CipangTests.m */; };
 		872708AF1861CCEC00E9B1DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708AE1861CCEC00E9B1DA /* MainViewController.m */; };
+		872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708B31861CE6A00E9B1DA /* DissolveSegue.m */; };
+		872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */; };
+		872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708B91861D25600E9B1DA /* CensusViewController.m */; };
+		872708BD1861D45100E9B1DA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708BC1861D45100E9B1DA /* BaseViewController.m */; };
+		872708C01861D51100E9B1DA /* CpiStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708BF1861D51100E9B1DA /* CpiStatsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,15 @@
 		872708A31861C99000E9B1DA /* CipangTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CipangTests.m; sourceTree = "<group>"; };
 		872708AD1861CCEC00E9B1DA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		872708AE1861CCEC00E9B1DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		872708B21861CE6A00E9B1DA /* DissolveSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissolveSegue.h; sourceTree = "<group>"; };
+		872708B31861CE6A00E9B1DA /* DissolveSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissolveSegue.m; sourceTree = "<group>"; };
+		872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "airport_sunset-2560x1600 (1).jpg"; sourceTree = "<group>"; };
+		872708B81861D25600E9B1DA /* CensusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CensusViewController.h; sourceTree = "<group>"; };
+		872708B91861D25600E9B1DA /* CensusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CensusViewController.m; sourceTree = "<group>"; };
+		872708BB1861D45100E9B1DA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		872708BC1861D45100E9B1DA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		872708BE1861D51100E9B1DA /* CpiStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpiStatsViewController.h; sourceTree = "<group>"; };
+		872708BF1861D51100E9B1DA /* CpiStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpiStatsViewController.m; sourceTree = "<group>"; };
 		C5A0A88EC4C745B99FD32F27 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		CDB928F6B5B44F798AF284B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -121,6 +135,7 @@
 		8727087E1861C99000E9B1DA /* Cipang */ = {
 			isa = PBXGroup;
 			children = (
+				872708B51861D02100E9B1DA /* Images */,
 				872708871861C99000E9B1DA /* AppDelegate.h */,
 				872708881861C99000E9B1DA /* AppDelegate.m */,
 				8727088A1861C99000E9B1DA /* Main.storyboard */,
@@ -128,6 +143,13 @@
 				8727088E1861C99000E9B1DA /* ViewController.m */,
 				872708AD1861CCEC00E9B1DA /* MainViewController.h */,
 				872708AE1861CCEC00E9B1DA /* MainViewController.m */,
+				872708B81861D25600E9B1DA /* CensusViewController.h */,
+				872708B91861D25600E9B1DA /* CensusViewController.m */,
+				872708BB1861D45100E9B1DA /* BaseViewController.h */,
+				872708BC1861D45100E9B1DA /* BaseViewController.m */,
+				872708BE1861D51100E9B1DA /* CpiStatsViewController.h */,
+				872708BF1861D51100E9B1DA /* CpiStatsViewController.m */,
+				872708B11861CE3300E9B1DA /* Segue */,
 				872708901861C99000E9B1DA /* Images.xcassets */,
 				8727087F1861C99000E9B1DA /* Supporting Files */,
 			);
@@ -161,6 +183,23 @@
 				872708A01861C99000E9B1DA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		872708B11861CE3300E9B1DA /* Segue */ = {
+			isa = PBXGroup;
+			children = (
+				872708B21861CE6A00E9B1DA /* DissolveSegue.h */,
+				872708B31861CE6A00E9B1DA /* DissolveSegue.m */,
+			);
+			name = Segue;
+			sourceTree = "<group>";
+		};
+		872708B51861D02100E9B1DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,6 +280,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,
@@ -296,8 +336,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8727088F1861C99000E9B1DA /* ViewController.m in Sources */,
+				872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */,
 				872708891861C99000E9B1DA /* AppDelegate.m in Sources */,
 				872708851861C99000E9B1DA /* main.m in Sources */,
+				872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */,
+				872708C01861D51100E9B1DA /* CpiStatsViewController.m in Sources */,
+				872708BD1861D45100E9B1DA /* BaseViewController.m in Sources */,
 				872708AF1861CCEC00E9B1DA /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

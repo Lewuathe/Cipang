@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+
+    // Hide navigation bar
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    
     titleButton.buttonColor = [UIColor concreteColor];
     titleButton.shadowColor = [UIColor asbestosColor];
     titleButton.shadowHeight = 3.0f;
