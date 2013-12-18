@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LEStatsRequest.h"
+
+typedef void (^Handler)(StatsResponse*);
 
 @interface BaseViewController : UIViewController <UIGestureRecognizerDelegate>
 

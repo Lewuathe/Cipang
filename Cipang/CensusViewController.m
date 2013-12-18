@@ -27,6 +27,18 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    NSString *appId = @"6d736004f09f38d8fc8bb827201c1ecf9b4cb84f";
+    LEStatsRequest *request = [[LEStatsRequest alloc] initWithAppId:appId];
+//    NSDictionary *params = @{@"lang":@"E",@"statsDataId":@"0003003333"};
+    NSDictionary *params = @{@"statsCode":@"00200521"};
+    
+    Handler yourHandler = ^(StatsResponse* response) {
+        NSLog(@"Receive API response");
+        // Write your handler
+        NSLog(@"%@",response.listListInf[1]);
+    };
+    [request list:params withHandler:yourHandler];
 }
 
 
