@@ -7,8 +7,11 @@
 //
 
 #import "CensusViewController.h"
+#import "Population.h"
 
-@interface CensusViewController ()
+@interface CensusViewController () {
+    Population *_population;
+}
 
 @end
 
@@ -30,17 +33,25 @@
     
     NSString *appId = @"6d736004f09f38d8fc8bb827201c1ecf9b4cb84f";
     LEStatsRequest *request = [[LEStatsRequest alloc] initWithAppId:appId];
-//    NSDictionary *params = @{@"lang":@"E",@"statsDataId":@"0003003333"};
-    NSDictionary *params = @{@"statsDataId":@"0003033021"};
+//    NSDictionary *params = @{@"lang":@"E",@"statsDataId":@"0003033022"};
+    NSDictionary *params = @{@"statsDataId":@"0003033022"};
     
     Handler yourHandler = ^(StatsResponse* response) {
         NSLog(@"Receive API response");
         // Write your handler
-        Value *value = response.dataDataInf.valueList[0];
-        NSLog(@"%d", response.dataDataInf.valueList.count);
-        NSLog(@"%@",value.v);
-        [barChart setXLabels:@[@"SEP 1",@"SEP 2",@"SEP 3",@"SEP 4",@"SEP 5"]];
-        [barChart setYValues:@[@1,  @10, @2, @6, @3]];
+        _population = [[Population alloc] initWithDataInf:response.dataDataInf];
+        NSArray *totalPopulation = [_population.totalDistribution subarrayWithRange:NSMakeRange(1, 21)];
+        NSLog(@"%@",totalPopulation);
+        /*
+        [barChart setYLabels:totalPopulation];
+        [barChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
+                               @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
+         */
+        
+//        [barChart setXLabels:@[@"0-4",@"SEP 2",@"SEP 3",@"SEP 4",@"SEP 5"]];
+        [barChart setYValues:totalPopulation];
+
+
         [barChart strokeChart];
     };
     [request data:params withHandler:yourHandler];

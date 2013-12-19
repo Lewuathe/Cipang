@@ -89,7 +89,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDC-cd-L9B" customClass="PNBarChart">
-                                <rect key="frame" x="156" y="492" width="384" height="512"/>
+                                <rect key="frame" x="0.0" y="512" width="768" height="512"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             </view>
@@ -101,7 +101,7 @@
                         </connections>
                     </view>
                     <connections>
-                        <outlet property="barChart" destination="TDC-cd-L9B" id="8tS-Uc-I6U"/>
+                        <outlet property="barChart" destination="TDC-cd-L9B" id="R9e-ri-1AO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0a-uQ-0cC" userLabel="First Responder" sceneMemberID="firstResponder"/>

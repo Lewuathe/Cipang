@@ -40,6 +40,8 @@
 		872708E11861D6A400E9B1DA /* TableInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DD1861D6A400E9B1DA /* TableInf.m */; };
 		872708E21861D6A400E9B1DA /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DF1861D6A400E9B1DA /* Value.m */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
+		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
+		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,10 @@
 		872708DE1861D6A400E9B1DA /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
 		872708DF1861D6A400E9B1DA /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		8790D4C41863306200D2AF18 /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
+		8790D4C51863306200D2AF18 /* Population.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Population.m; sourceTree = "<group>"; };
 		C5A0A88EC4C745B99FD32F27 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		CDB928F6B5B44F798AF284B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -172,6 +178,7 @@
 		8727087E1861C99000E9B1DA /* Cipang */ = {
 			isa = PBXGroup;
 			children = (
+				8790D4C31863304500D2AF18 /* Model */,
 				872708B51861D02100E9B1DA /* Images */,
 				872708871861C99000E9B1DA /* AppDelegate.h */,
 				872708881861C99000E9B1DA /* AppDelegate.m */,
@@ -267,6 +274,17 @@
 				872708C51861D67B00E9B1DA /* ClassObj.m */,
 			);
 			name = LEStatsRequest;
+			sourceTree = "<group>";
+		};
+		8790D4C31863304500D2AF18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8790D4BF1863303100D2AF18 /* BaseModel.h */,
+				8790D4C01863303100D2AF18 /* BaseModel.m */,
+				8790D4C41863306200D2AF18 /* Population.h */,
+				8790D4C51863306200D2AF18 /* Population.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,6 +430,7 @@
 				872708D31861D69200E9B1DA /* ListInf.m in Sources */,
 				872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */,
 				872708E21861D6A400E9B1DA /* Value.m in Sources */,
+				8790D4C61863306200D2AF18 /* Population.m in Sources */,
 				872708DB1861D69A00E9B1DA /* StatsResponse.m in Sources */,
 				872708D21861D69200E9B1DA /* LEStatsRequest.m in Sources */,
 				872708C01861D51100E9B1DA /* CpiStatsViewController.m in Sources */,
@@ -420,6 +439,7 @@
 				872708C71861D67B00E9B1DA /* ClassObj.m in Sources */,
 				872708CC1861D68500E9B1DA /* ClassMeta.m in Sources */,
 				872708AF1861CCEC00E9B1DA /* MainViewController.m in Sources */,
+				8790D4C11863303100D2AF18 /* BaseModel.m in Sources */,
 				872708CD1861D68500E9B1DA /* DataInf.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
