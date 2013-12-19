@@ -13,6 +13,8 @@
 
 @interface CensusViewController : BaseViewController {
     IBOutlet PNBarChart *barChart;
+    IBOutlet PNBarChart *manBarChart;
+    IBOutlet PNBarChart *womenBarChart;
 }
 
 @end
