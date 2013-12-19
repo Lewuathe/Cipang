@@ -8,8 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseViewController.h"
+#import "PNChart.h"
 
 
-@interface CensusViewController : BaseViewController
+@interface CensusViewController : BaseViewController {
+    IBOutlet PNBarChart *barChart;
+}
 
 @end

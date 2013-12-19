@@ -88,6 +88,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="TDC-cd-L9B" customClass="PNBarChart">
+                                <rect key="frame" x="156" y="492" width="384" height="512"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <gestureRecognizers/>
@@ -95,6 +100,9 @@
                             <outletCollection property="gestureRecognizers" destination="tJy-GY-n3G" appends="YES" id="lea-CA-xmM"/>
                         </connections>
                     </view>
+                    <connections>
+                        <outlet property="barChart" destination="TDC-cd-L9B" id="8tS-Uc-I6U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0a-uQ-0cC" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <pinchGestureRecognizer id="tJy-GY-n3G">
