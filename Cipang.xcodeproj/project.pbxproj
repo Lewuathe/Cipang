@@ -39,6 +39,7 @@
 		872708E01861D6A400E9B1DA /* ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DC1861D6A400E9B1DA /* ResponseParser.m */; };
 		872708E11861D6A400E9B1DA /* TableInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DD1861D6A400E9B1DA /* TableInf.m */; };
 		872708E21861D6A400E9B1DA /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DF1861D6A400E9B1DA /* Value.m */; };
+		877EF97918782E34007BD248 /* population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97818782E34007BD248 /* population_2010.plist */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -107,6 +108,7 @@
 		872708DD1861D6A400E9B1DA /* TableInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableInf.m; sourceTree = "<group>"; };
 		872708DE1861D6A400E9B1DA /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
 		872708DF1861D6A400E9B1DA /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
+		877EF97818782E34007BD248 /* population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = population_2010.plist; path = tools/population_2010.plist; sourceTree = SOURCE_ROOT; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		8727087E1861C99000E9B1DA /* Cipang */ = {
 			isa = PBXGroup;
 			children = (
+				877EF96D18781E4E007BD248 /* Data */,
 				8790D4C31863304500D2AF18 /* Model */,
 				872708B51861D02100E9B1DA /* Images */,
 				872708871861C99000E9B1DA /* AppDelegate.h */,
@@ -276,6 +279,14 @@
 			name = LEStatsRequest;
 			sourceTree = "<group>";
 		};
+		877EF96D18781E4E007BD248 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				877EF97818782E34007BD248 /* population_2010.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		8790D4C31863304500D2AF18 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */,
+				877EF97918782E34007BD248 /* population_2010.plist in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,

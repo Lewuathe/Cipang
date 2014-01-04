@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Populations</key>
+	<array>
+		<integer>1073100</integer>
+		<integer>5346000</integer>
+		<integer>5657000</integer>
+		<integer>5922500</integer>
+		<integer>6069900</integer>
+		<integer>6892200</integer>
+		<integer>7452000</integer>
+		<integer>8536700</integer>
+		<integer>9656600</integer>
+		<integer>8529800</integer>
+		<integer>7773600</integer>
+		<integer>7679300</integer>
+		<integer>9048200</integer>
+		<integer>9306200</integer>
+		<integer>8262100</integer>
+		<integer>6765300</integer>
+		<integer>5619000</integer>
+		<integer>4020500</integer>
+		<integer>2125200</integer>
+		<integer>821300</integer>
+		<integer>47100</integer>
+		<integer>128056000</integer>
+	</array>
+</dict>
+</plist>

@@ -31,6 +31,20 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    NSBundle *bundle = [NSBundle mainBundle];
+    
+    NSString *path = [bundle pathForResource:@"population_2010" ofType:@"plist"];
+    NSDictionary *root = [NSDictionary dictionaryWithContentsOfFile:path];
+    NSArray *population = [root objectForKey:@"Populations"];
+    
+    // 一旦NSDictionaryのキーを取得して
+
+    [barChart setYValues:[population subarrayWithRange:NSMakeRange(0, 21)]];
+    [barChart strokeChart];
+    
+    
+    
+    /*
     NSString *appId = @"6d736004f09f38d8fc8bb827201c1ecf9b4cb84f";
     LEStatsRequest *request = [[LEStatsRequest alloc] initWithAppId:appId];
 //    NSDictionary *params = @{@"lang":@"E",@"statsDataId":@"0003033022"};
@@ -44,7 +58,7 @@
         NSArray *manPopulation   = [_population.manDistribution subarrayWithRange:NSMakeRange(1, 21)];
         NSArray *womenPopulation = [_population.womenDistribution subarrayWithRange:NSMakeRange(1, 21)];
         NSLog(@"%@", manPopulation);
-        /*
+
         [barChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
                                @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
         
@@ -53,7 +67,7 @@
         
         [womenBarChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
                                @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
-         */
+
         
         [barChart setYValues:totalPopulation];
         [manBarChart setYValues:manPopulation];
@@ -65,6 +79,7 @@
         [womenBarChart strokeChart];
     };
     [request data:params withHandler:yourHandler];
+    */
 }
 
 
