@@ -6,7 +6,7 @@ import csv
 
 if __name__ == "__main__":
     # your code
-    csv_file = csv.reader(open('total_population.csv', 'r'))
+    csv_file = csv.reader(open('woman_population.csv', 'r'))
 
     total = csv_file.next()[0]
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 </dict>
 </plist>"""
 
-    f = open("population_2010.plist", "w")
+    f = open("woman_population_2010.plist", "w")
     f.write(document)
     f.close()
 

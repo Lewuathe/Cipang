@@ -33,14 +33,34 @@
     
     NSBundle *bundle = [NSBundle mainBundle];
     
+    /*
     NSString *path = [bundle pathForResource:@"population_2010" ofType:@"plist"];
     NSDictionary *root = [NSDictionary dictionaryWithContentsOfFile:path];
     NSArray *population = [root objectForKey:@"Populations"];
-    
-    // 一旦NSDictionaryのキーを取得して
-
+    CGFloat angle = 45.0 * M_PI / 180.0;
+    barChart.transform = CGAffineTransformMakeRotation(angle);
     [barChart setYValues:[population subarrayWithRange:NSMakeRange(0, 21)]];
+    [barChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
+                           @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
     [barChart strokeChart];
+     */
+    
+    NSString *manPath = [bundle pathForResource:@"man_population_2010" ofType:@"plist"];
+    NSDictionary *manRoot = [NSDictionary dictionaryWithContentsOfFile:manPath];
+    NSArray *manPopulation = [manRoot objectForKey:@"Populations"];
+
+    manBarChart.transform = CGAffineTransformMakeRotation(270 * M_PI / 180.0);
+    [manBarChart setYValues:[manPopulation subarrayWithRange:NSMakeRange(0, 21)]];
+    [manBarChart strokeChart];
+
+    NSString *womanPath = [bundle pathForResource:@"woman_population_2010" ofType:@"plist"];
+    NSDictionary *womanRoot = [NSDictionary dictionaryWithContentsOfFile:womanPath];
+    NSArray *womanPopulation = [womanRoot objectForKey:@"Populations"];
+
+    womenBarChart.transform = CGAffineTransformMakeRotation(270.0 * M_PI / 180.0);
+    womenBarChart.transform = CGAffineTransformScale(womenBarChart.transform, 1, -1);
+    [womenBarChart setYValues:[womanPopulation subarrayWithRange:NSMakeRange(0, 21)]];
+    [womenBarChart strokeChart];
     
     
     
