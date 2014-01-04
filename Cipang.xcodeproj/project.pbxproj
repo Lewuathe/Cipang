@@ -42,6 +42,8 @@
 		877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97A18783A56007BD248 /* woman_population_2010.plist */; };
 		877EF97E18783A56007BD248 /* population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97B18783A56007BD248 /* population_2010.plist */; };
 		877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97C18783A56007BD248 /* man_population_2010.plist */; };
+		877EF98218784BC0007BD248 /* LaborViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877EF98118784BC0007BD248 /* LaborViewController.m */; };
+		877EF98418784ECE007BD248 /* labor_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF98318784ECE007BD248 /* labor_category_2010.plist */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -113,6 +115,9 @@
 		877EF97A18783A56007BD248 /* woman_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = woman_population_2010.plist; path = data/woman_population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97B18783A56007BD248 /* population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = population_2010.plist; path = data/population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97C18783A56007BD248 /* man_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = man_population_2010.plist; path = data/man_population_2010.plist; sourceTree = SOURCE_ROOT; };
+		877EF98018784BC0007BD248 /* LaborViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaborViewController.h; sourceTree = "<group>"; };
+		877EF98118784BC0007BD248 /* LaborViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaborViewController.m; sourceTree = "<group>"; };
+		877EF98318784ECE007BD248 /* labor_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = labor_category_2010.plist; path = data/labor_category_2010.plist; sourceTree = SOURCE_ROOT; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -198,6 +203,8 @@
 				872708B91861D25600E9B1DA /* CensusViewController.m */,
 				872708BB1861D45100E9B1DA /* BaseViewController.h */,
 				872708BC1861D45100E9B1DA /* BaseViewController.m */,
+				877EF98018784BC0007BD248 /* LaborViewController.h */,
+				877EF98118784BC0007BD248 /* LaborViewController.m */,
 				872708BE1861D51100E9B1DA /* CpiStatsViewController.h */,
 				872708BF1861D51100E9B1DA /* CpiStatsViewController.m */,
 				872708C11861D66C00E9B1DA /* LEStatsRequest */,
@@ -286,6 +293,7 @@
 		877EF96D18781E4E007BD248 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				877EF98318784ECE007BD248 /* labor_category_2010.plist */,
 				877EF97A18783A56007BD248 /* woman_population_2010.plist */,
 				877EF97B18783A56007BD248 /* population_2010.plist */,
 				877EF97C18783A56007BD248 /* man_population_2010.plist */,
@@ -384,6 +392,7 @@
 			files = (
 				872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
+				877EF98418784ECE007BD248 /* labor_category_2010.plist in Resources */,
 				877EF97E18783A56007BD248 /* population_2010.plist in Resources */,
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
@@ -441,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				872708DA1861D69A00E9B1DA /* Note.m in Sources */,
+				877EF98218784BC0007BD248 /* LaborViewController.m in Sources */,
 				8727088F1861C99000E9B1DA /* ViewController.m in Sources */,
 				872708E11861D6A400E9B1DA /* TableInf.m in Sources */,
 				872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */,
