@@ -7,18 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FlatUIKit.h"
 #import "BaseViewController.h"
 #import "PNChart.h"
 #import "PNLineChartData.h"
 #import "PNLineChartDataItem.h"
 
-
-@interface CensusViewController : BaseViewController {
+@interface CensusViewController : BaseViewController <PNChartDelegate, UIPopoverControllerDelegate> {
     IBOutlet PNBarChart *barChart;
     IBOutlet PNBarChart *manBarChart;
     IBOutlet PNBarChart *womenBarChart;
     
     IBOutlet PNLineChart *populationTransition;
+    
 }
 
 @end
