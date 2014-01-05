@@ -66,6 +66,20 @@
     button4.cornerRadius = 6.0f;
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+    
+    button5.buttonColor = [UIColor wetAsphaltColor];
+    button5.shadowColor = [UIColor midnightBlueColor];
+    button5.shadowHeight = 3.0f;
+    button5.cornerRadius = 6.0f;
+    [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+    
+    button6.buttonColor = [UIColor sunflowerColor];
+    button6.shadowColor = [UIColor orangeColor];
+    button6.shadowHeight = 3.0f;
+    button6.cornerRadius = 6.0f;
+    [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 
     
 }

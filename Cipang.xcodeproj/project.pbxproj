@@ -27,7 +27,6 @@
 		872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */; };
 		872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708B91861D25600E9B1DA /* CensusViewController.m */; };
 		872708BD1861D45100E9B1DA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708BC1861D45100E9B1DA /* BaseViewController.m */; };
-		872708C01861D51100E9B1DA /* CpiStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708BF1861D51100E9B1DA /* CpiStatsViewController.m */; };
 		872708C61861D67B00E9B1DA /* ClassInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708C31861D67B00E9B1DA /* ClassInf.m */; };
 		872708C71861D67B00E9B1DA /* ClassObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708C51861D67B00E9B1DA /* ClassObj.m */; };
 		872708CC1861D68500E9B1DA /* ClassMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708C91861D68500E9B1DA /* ClassMeta.m */; };
@@ -51,6 +50,9 @@
 		8780CB6818790BD200646BC1 /* foreigner_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB6718790BD200646BC1 /* foreigner_category_2010.plist */; };
 		8780CB6B1879107400646BC1 /* LaborTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB6A1879107400646BC1 /* LaborTypeViewController.m */; };
 		8780CB6D187911F200646BC1 /* labor_type_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB6C187911F200646BC1 /* labor_type_2010.plist */; };
+		8780CB701879140900646BC1 /* FamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB6F1879140900646BC1 /* FamilyViewController.m */; };
+		8780CB731879141400646BC1 /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB721879141400646BC1 /* EducationViewController.m */; };
+		8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB74187916C400646BC1 /* education_category_2010.plist */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -95,8 +97,6 @@
 		872708B91861D25600E9B1DA /* CensusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CensusViewController.m; sourceTree = "<group>"; };
 		872708BB1861D45100E9B1DA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		872708BC1861D45100E9B1DA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		872708BE1861D51100E9B1DA /* CpiStatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CpiStatsViewController.h; sourceTree = "<group>"; };
-		872708BF1861D51100E9B1DA /* CpiStatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CpiStatsViewController.m; sourceTree = "<group>"; };
 		872708C21861D67B00E9B1DA /* ClassInf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassInf.h; sourceTree = "<group>"; };
 		872708C31861D67B00E9B1DA /* ClassInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassInf.m; sourceTree = "<group>"; };
 		872708C41861D67B00E9B1DA /* ClassObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassObj.h; sourceTree = "<group>"; };
@@ -136,6 +136,11 @@
 		8780CB691879107400646BC1 /* LaborTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaborTypeViewController.h; sourceTree = "<group>"; };
 		8780CB6A1879107400646BC1 /* LaborTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaborTypeViewController.m; sourceTree = "<group>"; };
 		8780CB6C187911F200646BC1 /* labor_type_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = labor_type_2010.plist; path = data/labor_type_2010.plist; sourceTree = SOURCE_ROOT; };
+		8780CB6E1879140900646BC1 /* FamilyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyViewController.h; sourceTree = "<group>"; };
+		8780CB6F1879140900646BC1 /* FamilyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyViewController.m; sourceTree = "<group>"; };
+		8780CB711879141400646BC1 /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
+		8780CB721879141400646BC1 /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
+		8780CB74187916C400646BC1 /* education_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = education_category_2010.plist; path = data/education_category_2010.plist; sourceTree = SOURCE_ROOT; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -228,8 +233,10 @@
 				8780CB5E1878FF3300646BC1 /* HouseViewController.m */,
 				8780CB641879095000646BC1 /* ForeignerViewController.h */,
 				8780CB651879095000646BC1 /* ForeignerViewController.m */,
-				872708BE1861D51100E9B1DA /* CpiStatsViewController.h */,
-				872708BF1861D51100E9B1DA /* CpiStatsViewController.m */,
+				8780CB6E1879140900646BC1 /* FamilyViewController.h */,
+				8780CB6F1879140900646BC1 /* FamilyViewController.m */,
+				8780CB711879141400646BC1 /* EducationViewController.h */,
+				8780CB721879141400646BC1 /* EducationViewController.m */,
 				872708C11861D66C00E9B1DA /* LEStatsRequest */,
 				872708B11861CE3300E9B1DA /* Segue */,
 				872708901861C99000E9B1DA /* Images.xcassets */,
@@ -316,6 +323,7 @@
 		877EF96D18781E4E007BD248 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8780CB74187916C400646BC1 /* education_category_2010.plist */,
 				8780CB6C187911F200646BC1 /* labor_type_2010.plist */,
 				8780CB6718790BD200646BC1 /* foreigner_category_2010.plist */,
 				877EF98318784ECE007BD248 /* labor_category_2010.plist */,
@@ -429,6 +437,7 @@
 			files = (
 				872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
+				8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */,
 				877EF98418784ECE007BD248 /* labor_category_2010.plist in Resources */,
 				877EF97E18783A56007BD248 /* population_2010.plist in Resources */,
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
@@ -494,7 +503,9 @@
 				8727088F1861C99000E9B1DA /* ViewController.m in Sources */,
 				872708E11861D6A400E9B1DA /* TableInf.m in Sources */,
 				872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */,
+				8780CB731879141400646BC1 /* EducationViewController.m in Sources */,
 				872708891861C99000E9B1DA /* AppDelegate.m in Sources */,
+				8780CB701879140900646BC1 /* FamilyViewController.m in Sources */,
 				872708851861C99000E9B1DA /* main.m in Sources */,
 				872708C61861D67B00E9B1DA /* ClassInf.m in Sources */,
 				872708D31861D69200E9B1DA /* ListInf.m in Sources */,
@@ -506,7 +517,6 @@
 				8790D4C61863306200D2AF18 /* Population.m in Sources */,
 				872708DB1861D69A00E9B1DA /* StatsResponse.m in Sources */,
 				872708D21861D69200E9B1DA /* LEStatsRequest.m in Sources */,
-				872708C01861D51100E9B1DA /* CpiStatsViewController.m in Sources */,
 				872708E01861D6A400E9B1DA /* ResponseParser.m in Sources */,
 				872708BD1861D45100E9B1DA /* BaseViewController.m in Sources */,
 				872708C71861D67B00E9B1DA /* ClassObj.m in Sources */,

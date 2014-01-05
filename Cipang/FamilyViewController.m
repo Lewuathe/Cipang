@@ -1,18 +1,18 @@
 //
-//  CpiStatsViewController.m
+//  FamilyViewController.m
 //  Cipang
 //
-//  Created by Sasaki Kai on 12/18/13.
-//  Copyright (c) 2013 Sasaki Kai. All rights reserved.
+//  Created by Sasaki Kai on 1/5/14.
+//  Copyright (c) 2014 Sasaki Kai. All rights reserved.
 //
 
-#import "CpiStatsViewController.h"
+#import "FamilyViewController.h"
 
-@interface CpiStatsViewController ()
+@interface FamilyViewController ()
 
 @end
 
-@implementation CpiStatsViewController
+@implementation FamilyViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
