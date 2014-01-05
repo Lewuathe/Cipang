@@ -14,6 +14,7 @@
     IBOutlet FUIButton *button1;
     IBOutlet FUIButton *button2;
     IBOutlet FUIButton *button3;
+    IBOutlet FUIButton *button4;
 }
 
 @end

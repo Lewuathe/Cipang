@@ -59,6 +59,15 @@
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
+    
+    button4.buttonColor = [UIColor amethystColor];
+    button4.shadowColor = [UIColor wisteriaColor];
+    button4.shadowHeight = 3.0f;
+    button4.cornerRadius = 6.0f;
+    [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+
+    
 }
 
 - (void)didReceiveMemoryWarning
