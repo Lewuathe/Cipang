@@ -117,7 +117,14 @@
 {
     NSLog(@"did select slice at index %d",index);
     label.text = [_categoryName objectAtIndex:index];
-    number.text = [[_category objectAtIndex:index] stringValue];
+    
+    NSNumberFormatter* formatter = [[NSNumberFormatter alloc] init];
+    
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setGroupingSeparator:@","];
+    [formatter setGroupingSize:3];
+    
+    number.text = [formatter stringForObjectValue:[_category objectAtIndex:index]];
 }
 
 
