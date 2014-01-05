@@ -53,6 +53,7 @@
 		8780CB701879140900646BC1 /* FamilyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB6F1879140900646BC1 /* FamilyViewController.m */; };
 		8780CB731879141400646BC1 /* EducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB721879141400646BC1 /* EducationViewController.m */; };
 		8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB74187916C400646BC1 /* education_category_2010.plist */; };
+		8780CB77187919C300646BC1 /* family_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB76187919C300646BC1 /* family_category_2010.plist */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -141,6 +142,7 @@
 		8780CB711879141400646BC1 /* EducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EducationViewController.h; sourceTree = "<group>"; };
 		8780CB721879141400646BC1 /* EducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EducationViewController.m; sourceTree = "<group>"; };
 		8780CB74187916C400646BC1 /* education_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = education_category_2010.plist; path = data/education_category_2010.plist; sourceTree = SOURCE_ROOT; };
+		8780CB76187919C300646BC1 /* family_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = family_category_2010.plist; path = data/family_category_2010.plist; sourceTree = SOURCE_ROOT; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		877EF96D18781E4E007BD248 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				8780CB76187919C300646BC1 /* family_category_2010.plist */,
 				8780CB74187916C400646BC1 /* education_category_2010.plist */,
 				8780CB6C187911F200646BC1 /* labor_type_2010.plist */,
 				8780CB6718790BD200646BC1 /* foreigner_category_2010.plist */,
@@ -446,6 +449,7 @@
 				8780CB6818790BD200646BC1 /* foreigner_category_2010.plist in Resources */,
 				8780CB6D187911F200646BC1 /* labor_type_2010.plist in Resources */,
 				8780CB5C1878FEFF00646BC1 /* house_category_2010.plist in Resources */,
+				8780CB77187919C300646BC1 /* family_category_2010.plist in Resources */,
 				877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
