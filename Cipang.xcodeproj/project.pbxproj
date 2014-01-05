@@ -44,6 +44,9 @@
 		877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97C18783A56007BD248 /* man_population_2010.plist */; };
 		877EF98218784BC0007BD248 /* LaborViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 877EF98118784BC0007BD248 /* LaborViewController.m */; };
 		877EF98418784ECE007BD248 /* labor_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF98318784ECE007BD248 /* labor_category_2010.plist */; };
+		8780CB5C1878FEFF00646BC1 /* house_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB5B1878FEFF00646BC1 /* house_category_2010.plist */; };
+		8780CB5F1878FF3300646BC1 /* HouseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB5E1878FF3300646BC1 /* HouseViewController.m */; };
+		8780CB631878FFB500646BC1 /* PieChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8780CB621878FFB500646BC1 /* PieChartViewController.m */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -118,6 +121,11 @@
 		877EF98018784BC0007BD248 /* LaborViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaborViewController.h; sourceTree = "<group>"; };
 		877EF98118784BC0007BD248 /* LaborViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaborViewController.m; sourceTree = "<group>"; };
 		877EF98318784ECE007BD248 /* labor_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = labor_category_2010.plist; path = data/labor_category_2010.plist; sourceTree = SOURCE_ROOT; };
+		8780CB5B1878FEFF00646BC1 /* house_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = house_category_2010.plist; path = data/house_category_2010.plist; sourceTree = SOURCE_ROOT; };
+		8780CB5D1878FF3300646BC1 /* HouseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseViewController.h; sourceTree = "<group>"; };
+		8780CB5E1878FF3300646BC1 /* HouseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseViewController.m; sourceTree = "<group>"; };
+		8780CB611878FFB500646BC1 /* PieChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartViewController.h; sourceTree = "<group>"; };
+		8780CB621878FFB500646BC1 /* PieChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartViewController.m; sourceTree = "<group>"; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -189,6 +197,7 @@
 		8727087E1861C99000E9B1DA /* Cipang */ = {
 			isa = PBXGroup;
 			children = (
+				8780CB601878FF9100646BC1 /* Parents */,
 				877EF96D18781E4E007BD248 /* Data */,
 				8790D4C31863304500D2AF18 /* Model */,
 				872708B51861D02100E9B1DA /* Images */,
@@ -201,10 +210,10 @@
 				872708AE1861CCEC00E9B1DA /* MainViewController.m */,
 				872708B81861D25600E9B1DA /* CensusViewController.h */,
 				872708B91861D25600E9B1DA /* CensusViewController.m */,
-				872708BB1861D45100E9B1DA /* BaseViewController.h */,
-				872708BC1861D45100E9B1DA /* BaseViewController.m */,
 				877EF98018784BC0007BD248 /* LaborViewController.h */,
 				877EF98118784BC0007BD248 /* LaborViewController.m */,
+				8780CB5D1878FF3300646BC1 /* HouseViewController.h */,
+				8780CB5E1878FF3300646BC1 /* HouseViewController.m */,
 				872708BE1861D51100E9B1DA /* CpiStatsViewController.h */,
 				872708BF1861D51100E9B1DA /* CpiStatsViewController.m */,
 				872708C11861D66C00E9B1DA /* LEStatsRequest */,
@@ -297,8 +306,20 @@
 				877EF97A18783A56007BD248 /* woman_population_2010.plist */,
 				877EF97B18783A56007BD248 /* population_2010.plist */,
 				877EF97C18783A56007BD248 /* man_population_2010.plist */,
+				8780CB5B1878FEFF00646BC1 /* house_category_2010.plist */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		8780CB601878FF9100646BC1 /* Parents */ = {
+			isa = PBXGroup;
+			children = (
+				872708BB1861D45100E9B1DA /* BaseViewController.h */,
+				872708BC1861D45100E9B1DA /* BaseViewController.m */,
+				8780CB611878FFB500646BC1 /* PieChartViewController.h */,
+				8780CB621878FFB500646BC1 /* PieChartViewController.m */,
+			);
+			name = Parents;
 			sourceTree = "<group>";
 		};
 		8790D4C31863304500D2AF18 /* Model */ = {
@@ -397,6 +418,7 @@
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,
+				8780CB5C1878FEFF00646BC1 /* house_category_2010.plist in Resources */,
 				877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +481,8 @@
 				872708C61861D67B00E9B1DA /* ClassInf.m in Sources */,
 				872708D31861D69200E9B1DA /* ListInf.m in Sources */,
 				872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */,
+				8780CB631878FFB500646BC1 /* PieChartViewController.m in Sources */,
+				8780CB5F1878FF3300646BC1 /* HouseViewController.m in Sources */,
 				872708E21861D6A400E9B1DA /* Value.m in Sources */,
 				8790D4C61863306200D2AF18 /* Population.m in Sources */,
 				872708DB1861D69A00E9B1DA /* StatsResponse.m in Sources */,

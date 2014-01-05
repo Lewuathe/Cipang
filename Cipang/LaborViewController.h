@@ -6,13 +6,8 @@
 //  Copyright (c) 2014 Sasaki Kai. All rights reserved.
 //
 
-#import "BaseViewController.h"
-#import "XYPieChart.h"
+#import "PieChartViewController.h"
 
-@interface LaborViewController : BaseViewController <XYPieChartDelegate, XYPieChartDataSource> {
-    IBOutlet XYPieChart *chart;
-    IBOutlet UILabel *label;
-    IBOutlet UILabel *number;
-}
+@interface LaborViewController : PieChartViewController
 
 @end
