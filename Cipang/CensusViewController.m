@@ -33,18 +33,6 @@
     
     NSBundle *bundle = [NSBundle mainBundle];
     
-    /*
-    NSString *path = [bundle pathForResource:@"population_2010" ofType:@"plist"];
-    NSDictionary *root = [NSDictionary dictionaryWithContentsOfFile:path];
-    NSArray *population = [root objectForKey:@"Populations"];
-    CGFloat angle = 45.0 * M_PI / 180.0;
-    barChart.transform = CGAffineTransformMakeRotation(angle);
-    [barChart setYValues:[population subarrayWithRange:NSMakeRange(0, 21)]];
-    [barChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
-                           @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
-    [barChart strokeChart];
-     */
-    
     NSString *manPath = [bundle pathForResource:@"man_population_2010" ofType:@"plist"];
     NSDictionary *manRoot = [NSDictionary dictionaryWithContentsOfFile:manPath];
     NSArray *manPopulation = [manRoot objectForKey:@"Populations"];
@@ -64,42 +52,22 @@
     
     
     
-    /*
-    NSString *appId = @"6d736004f09f38d8fc8bb827201c1ecf9b4cb84f";
-    LEStatsRequest *request = [[LEStatsRequest alloc] initWithAppId:appId];
-//    NSDictionary *params = @{@"lang":@"E",@"statsDataId":@"0003033022"};
-    NSDictionary *params = @{@"statsDataId":@"0003033022"};
-    
-    Handler yourHandler = ^(StatsResponse* response) {
-        NSLog(@"Receive API response");
-        // Write your handler
-        _population = [[Population alloc] initWithDataInf:response.dataDataInf];
-        NSArray *totalPopulation = [_population.totalDistribution subarrayWithRange:NSMakeRange(1, 21)];
-        NSArray *manPopulation   = [_population.manDistribution subarrayWithRange:NSMakeRange(1, 21)];
-        NSArray *womenPopulation = [_population.womenDistribution subarrayWithRange:NSMakeRange(1, 21)];
-        NSLog(@"%@", manPopulation);
+    NSString *transitionPath = [bundle pathForResource:@"total_population_transition" ofType:@"plist"];
+    NSDictionary *transitionRoot = [NSDictionary dictionaryWithContentsOfFile:transitionPath];
+    NSArray *transitionPopulation = [transitionRoot objectForKey:@"Populations"];
+    [populationTransition setXLabels:@[@"1980",@"1985",@"1990",@"1995",@"2000",@"2005",@"2010"]];
 
-        [barChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
-                               @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
-        
-        [manBarChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
-                               @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
-        
-        [womenBarChart setXLabels:@[@"0-4",@"5-9",@"10-14",@"15-19",@"20-24",@"25-29",@"30-34",@"35-39",@"40-44",@"45-49",@"50-54",
-                               @"55-59",@"60-64",@"65-69",@"70-74",@"75-79",@"80-84",@"85-89",@"90-94",@"95-99",@"100-"]];
-
-        
-        [barChart setYValues:totalPopulation];
-        [manBarChart setYValues:manPopulation];
-        [womenBarChart setYValues:womenPopulation];
-
-
-        [barChart strokeChart];
-        [manBarChart strokeChart];
-        [womenBarChart strokeChart];
+    NSArray * dataArray = transitionPopulation;
+    PNLineChartData *data01 = [PNLineChartData new];
+    data01.color = PNFreshGreen;
+    data01.itemCount = populationTransition.xLabels.count;
+    CGFloat baseValue = [[dataArray objectAtIndex:0] floatValue];
+    data01.getData = ^(NSUInteger index) {
+        CGFloat yValue = [[dataArray objectAtIndex:index] floatValue] - baseValue;
+        return [PNLineChartDataItem dataItemWithY:yValue];
     };
-    [request data:params withHandler:yourHandler];
-    */
+    populationTransition.chartData = @[data01];
+    [populationTransition strokeChart];
 }
 
 
