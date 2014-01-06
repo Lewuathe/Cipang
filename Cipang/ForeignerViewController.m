@@ -56,10 +56,16 @@
                     [UIColor colorWithRed:255/255.0 green:255/255.0 blue:127/255.0 alpha:1],
                     [UIColor colorWithRed:255/255.0 green:191/255.0 blue:127/255.0 alpha:1],
                     [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
-    
+    /*
     _categoryName = [NSArray arrayWithObjects:
                      @"韓国，朝鮮", @"中国", @"フィリピン", @"タイ", @"インドネシア", @"ベトナム",
                      @"イギリス", @"アメリカ", @"ブラジル", @"ペルー", @"その他（無国籍及び国名「不詳」を含む。）",  nil];
+     */
+    
+    _categoryName = [NSArray arrayWithObjects:
+                     @"Korea", @"Chinese", @"Filipino", @"Thai", @"Indonesian", @"Vietnamese",
+                     @"English", @"American", @"Brazilian", @"Peruvian", @"Other", nil];
+    
 }
 
 - (void)didReceiveMemoryWarning

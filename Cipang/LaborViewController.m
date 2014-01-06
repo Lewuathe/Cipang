@@ -61,11 +61,17 @@
                    [UIColor colorWithRed:255/255.0 green:191/255.0 blue:127/255.0 alpha:1],
                    [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
     
+    /*
     _categoryName = [NSArray arrayWithObjects:
                      @"管理的職業従事者", @"専門的・技術的職業従事者",
                      @"事務従事者", @"販売従事者", @"サービス職業従事者", @"保安職業従事者",
                      @"農林漁業従事者", @"生産工程従事者", @" 輸送・機械運転従事者", @" 建設・採掘従事者",
                      @"運搬・清掃・包装等従事者", @"分類不能の職業", nil];
+     */
+    _categoryName = [NSArray arrayWithObjects:
+                     @"Management", @"Profession", @"Minor career", @"Sales", @"Service", @"Security",
+                     @"Agricultural and fisheries industries", @"Production process", @"Transportation", @"Construction",
+                     @"Dustman", @"Unknown", nil];
     
 }
 

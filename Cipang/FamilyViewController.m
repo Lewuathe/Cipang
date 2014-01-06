@@ -57,9 +57,14 @@
                     [UIColor colorWithRed:255/255.0 green:191/255.0 blue:127/255.0 alpha:1],
                     [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
     
+    /*
     _categoryName = [NSArray arrayWithObjects:
                      @"核家族世帯", @"夫婦のみの世帯",
                      @"核家族以外の世帯", @"非親族を含む世帯", @"単独世帯", nil];
+     */
+    
+    _categoryName = [NSArray arrayWithObjects:@"Nuclear family", @"Couple family",
+                     @"Besides nuclear family", @"Including non-relatives", @"Singular", nil];
     
 
 }

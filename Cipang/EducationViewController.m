@@ -58,9 +58,15 @@
                     [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
     
     
+    /*
     _categoryName = [NSArray arrayWithObjects:
                      @"卒業者　小学校・中学校", @"卒業者　高校・旧中", @"卒業者　短大・高専",
                      @"卒業者　大学・大学院", @"卒業者　不詳", @"在学者", @"未就学者", nil];
+     */
+    
+    _categoryName = [NSArray arrayWithObjects:
+                     @"Junior high school graduate", @"High school graduate", @"Junior college graduate",
+                     @"College graduate", @"Unknown graduate", @"Current students", @"Preschool" ,nil];
 
 }
 

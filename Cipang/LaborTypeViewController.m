@@ -57,10 +57,16 @@
                     [UIColor colorWithRed:255/255.0 green:191/255.0 blue:127/255.0 alpha:1],
                     [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
     
+    /*
     _categoryName = [NSArray arrayWithObjects:
                      @"（就業者）主に仕事", @"（就業者）家事のほか仕事",
                      @"（就業者）通学のかたわら仕事", @"（就業者）休業者", @"完全失業者",
                      @"非労働力人口", @"家事", @"通学", @"その他", @"不詳", nil];
+     */
+    _categoryName = [NSArray arrayWithObjects:
+                     @"(Employed) Mainly work", @"(Employed) Mainly housework", @"(Employed) Mainly study",
+                     @"(Employed) Absentee", @"Unemployed", @"Non-labor force", @"Houseworker", @"Student",
+                     @"Other", @"Unknown", nil];
 
 }
 
