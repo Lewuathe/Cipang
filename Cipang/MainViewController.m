@@ -42,6 +42,7 @@
     button1.shadowColor = [UIColor greenSeaColor];
     button1.shadowHeight = 3.0f;
     button1.cornerRadius = 6.0f;
+    [button1 addSubview:[self attachImage:@"population.png"]];
     [button1 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button1 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
@@ -49,6 +50,7 @@
     button2.shadowColor = [UIColor pumpkinColor];
     button2.shadowHeight = 3.0f;
     button2.cornerRadius = 6.0f;
+    [button2 addSubview:[self attachImage:@"house.png"]];
     [button2 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button2 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
@@ -56,14 +58,15 @@
     button3.shadowColor = [UIColor belizeHoleColor];
     button3.shadowHeight = 3.0f;
     button3.cornerRadius = 6.0f;
+    [button3 addSubview:[self attachImage:@"labor.png"]];
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
-    
     
     button4.buttonColor = [UIColor amethystColor];
     button4.shadowColor = [UIColor wisteriaColor];
     button4.shadowHeight = 3.0f;
     button4.cornerRadius = 6.0f;
+    [button4 addSubview:[self attachImage:@"foreigner.png"]];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
@@ -71,6 +74,7 @@
     button5.shadowColor = [UIColor midnightBlueColor];
     button5.shadowHeight = 3.0f;
     button5.cornerRadius = 6.0f;
+    [button5 addSubview:[self attachImage:@"education.png"]];
     [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
@@ -78,10 +82,18 @@
     button6.shadowColor = [UIColor orangeColor];
     button6.shadowHeight = 3.0f;
     button6.cornerRadius = 6.0f;
+    [button6 addSubview:[self attachImage:@"family.png"]];
     [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 
     
+}
+
+- (UIImageView*)attachImage:(NSString*)filename {
+    UIImage *image = [UIImage imageNamed:filename];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
+    imageView.center = CGPointMake(75.0f, 75.0f);
+    return imageView;
 }
 
 - (void)didReceiveMemoryWarning

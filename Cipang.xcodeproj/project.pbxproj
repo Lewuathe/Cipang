@@ -24,7 +24,6 @@
 		872708A41861C99000E9B1DA /* CipangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708A31861C99000E9B1DA /* CipangTests.m */; };
 		872708AF1861CCEC00E9B1DA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708AE1861CCEC00E9B1DA /* MainViewController.m */; };
 		872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708B31861CE6A00E9B1DA /* DissolveSegue.m */; };
-		872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */; };
 		872708BA1861D25600E9B1DA /* CensusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708B91861D25600E9B1DA /* CensusViewController.m */; };
 		872708BD1861D45100E9B1DA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708BC1861D45100E9B1DA /* BaseViewController.m */; };
 		872708C61861D67B00E9B1DA /* ClassInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708C31861D67B00E9B1DA /* ClassInf.m */; };
@@ -55,6 +54,12 @@
 		8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB74187916C400646BC1 /* education_category_2010.plist */; };
 		8780CB77187919C300646BC1 /* family_category_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB76187919C300646BC1 /* family_category_2010.plist */; };
 		8780CB79187964B500646BC1 /* total_population_transition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB78187964B500646BC1 /* total_population_transition.plist */; };
+		8780CB7F187AE4A100646BC1 /* population.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB7E187AE4A100646BC1 /* population.png */; };
+		8780CB81187AE8AD00646BC1 /* foreigner.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB80187AE8AD00646BC1 /* foreigner.png */; };
+		8780CB85187AE9DE00646BC1 /* house.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB84187AE9DE00646BC1 /* house.png */; };
+		8780CB87187AEA8A00646BC1 /* labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB86187AEA8A00646BC1 /* labor.png */; };
+		8780CB89187AEBB800646BC1 /* education.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB88187AEBB800646BC1 /* education.png */; };
+		8780CB8B187AEEAB00646BC1 /* family.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB8A187AEEAB00646BC1 /* family.png */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -94,7 +99,6 @@
 		872708AE1861CCEC00E9B1DA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		872708B21861CE6A00E9B1DA /* DissolveSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DissolveSegue.h; sourceTree = "<group>"; };
 		872708B31861CE6A00E9B1DA /* DissolveSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DissolveSegue.m; sourceTree = "<group>"; };
-		872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "airport_sunset-2560x1600 (1).jpg"; sourceTree = "<group>"; };
 		872708B81861D25600E9B1DA /* CensusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CensusViewController.h; sourceTree = "<group>"; };
 		872708B91861D25600E9B1DA /* CensusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CensusViewController.m; sourceTree = "<group>"; };
 		872708BB1861D45100E9B1DA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -145,6 +149,12 @@
 		8780CB74187916C400646BC1 /* education_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = education_category_2010.plist; path = data/education_category_2010.plist; sourceTree = SOURCE_ROOT; };
 		8780CB76187919C300646BC1 /* family_category_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = family_category_2010.plist; path = data/family_category_2010.plist; sourceTree = SOURCE_ROOT; };
 		8780CB78187964B500646BC1 /* total_population_transition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = total_population_transition.plist; path = data/total_population_transition.plist; sourceTree = SOURCE_ROOT; };
+		8780CB7E187AE4A100646BC1 /* population.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = population.png; sourceTree = "<group>"; };
+		8780CB80187AE8AD00646BC1 /* foreigner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreigner.png; sourceTree = "<group>"; };
+		8780CB84187AE9DE00646BC1 /* house.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = house.png; sourceTree = "<group>"; };
+		8780CB86187AEA8A00646BC1 /* labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labor.png; sourceTree = "<group>"; };
+		8780CB88187AEBB800646BC1 /* education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = education.png; sourceTree = "<group>"; };
+		8780CB8A187AEEAB00646BC1 /* family.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = family.png; sourceTree = "<group>"; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -290,7 +300,12 @@
 		872708B51861D02100E9B1DA /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				872708B61861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg */,
+				8780CB80187AE8AD00646BC1 /* foreigner.png */,
+				8780CB7E187AE4A100646BC1 /* population.png */,
+				8780CB84187AE9DE00646BC1 /* house.png */,
+				8780CB86187AEA8A00646BC1 /* labor.png */,
+				8780CB88187AEBB800646BC1 /* education.png */,
+				8780CB8A187AEEAB00646BC1 /* family.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -441,7 +456,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				872708B71861D04900E9B1DA /* airport_sunset-2560x1600 (1).jpg in Resources */,
+				8780CB85187AE9DE00646BC1 /* house.png in Resources */,
+				8780CB7F187AE4A100646BC1 /* population.png in Resources */,
 				8780CB79187964B500646BC1 /* total_population_transition.plist in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
 				8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */,
@@ -449,11 +465,15 @@
 				877EF97E18783A56007BD248 /* population_2010.plist in Resources */,
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
+				8780CB8B187AEEAB00646BC1 /* family.png in Resources */,
+				8780CB87187AEA8A00646BC1 /* labor.png in Resources */,
+				8780CB89187AEBB800646BC1 /* education.png in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,
 				8780CB6818790BD200646BC1 /* foreigner_category_2010.plist in Resources */,
 				8780CB6D187911F200646BC1 /* labor_type_2010.plist in Resources */,
 				8780CB5C1878FEFF00646BC1 /* house_category_2010.plist in Resources */,
 				8780CB77187919C300646BC1 /* family_category_2010.plist in Resources */,
+				8780CB81187AE8AD00646BC1 /* foreigner.png in Resources */,
 				877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
