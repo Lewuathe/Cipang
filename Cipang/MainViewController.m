@@ -70,8 +70,8 @@
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button5.buttonColor = [UIColor wetAsphaltColor];
-    button5.shadowColor = [UIColor midnightBlueColor];
+    button5.buttonColor = [UIColor alizarinColor];
+    button5.shadowColor = [UIColor pomegranateColor];
     button5.shadowHeight = 3.0f;
     button5.cornerRadius = 6.0f;
     [button5 addSubview:[self attachImage:@"education.png"]];
@@ -85,7 +85,14 @@
     [button6 addSubview:[self attachImage:@"family.png"]];
     [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button6 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
-
+    
+    settingButton.buttonColor = [UIColor asbestosColor];
+    settingButton.shadowColor = [UIColor midnightBlueColor];
+    settingButton.shadowHeight = 3.0f;
+    settingButton.cornerRadius = 6.0f;
+    [settingButton addSubview:[self attachImage:@"setting.png"]];
+    [settingButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [settingButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
 }
 

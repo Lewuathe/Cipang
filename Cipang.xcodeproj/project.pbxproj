@@ -60,6 +60,7 @@
 		8780CB87187AEA8A00646BC1 /* labor.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB86187AEA8A00646BC1 /* labor.png */; };
 		8780CB89187AEBB800646BC1 /* education.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB88187AEBB800646BC1 /* education.png */; };
 		8780CB8B187AEEAB00646BC1 /* family.png in Resources */ = {isa = PBXBuildFile; fileRef = 8780CB8A187AEEAB00646BC1 /* family.png */; };
+		8789B4DE187C39CD005F8AC1 /* setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 8789B4DD187C39CD005F8AC1 /* setting.png */; };
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
@@ -155,6 +156,7 @@
 		8780CB86187AEA8A00646BC1 /* labor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = labor.png; sourceTree = "<group>"; };
 		8780CB88187AEBB800646BC1 /* education.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = education.png; sourceTree = "<group>"; };
 		8780CB8A187AEEAB00646BC1 /* family.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = family.png; sourceTree = "<group>"; };
+		8789B4DD187C39CD005F8AC1 /* setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setting.png; sourceTree = "<group>"; };
 		8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8790D4BF1863303100D2AF18 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
@@ -306,6 +308,7 @@
 				8780CB86187AEA8A00646BC1 /* labor.png */,
 				8780CB88187AEBB800646BC1 /* education.png */,
 				8780CB8A187AEEAB00646BC1 /* family.png */,
+				8789B4DD187C39CD005F8AC1 /* setting.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -466,6 +469,7 @@
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
 				8780CB8B187AEEAB00646BC1 /* family.png in Resources */,
+				8789B4DE187C39CD005F8AC1 /* setting.png in Resources */,
 				8780CB87187AEA8A00646BC1 /* labor.png in Resources */,
 				8780CB89187AEBB800646BC1 /* education.png in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,
