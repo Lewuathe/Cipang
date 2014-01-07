@@ -18,6 +18,7 @@
     IBOutlet FUIButton *button5;
     IBOutlet FUIButton *button6;
     IBOutlet FUIButton *settingButton;
+    IBOutlet FUIButton *creditButton;
     
 }
 

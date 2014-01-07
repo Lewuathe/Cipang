@@ -96,6 +96,14 @@
     [settingButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [settingButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
+    creditButton.buttonColor = [UIColor asbestosColor];
+    creditButton.shadowColor = [UIColor midnightBlueColor];
+    creditButton.shadowHeight = 3.0f;
+    creditButton.cornerRadius = 6.0f;
+    [creditButton addSubview:[self attachImage:@"credit.png" withSize:creditButton.frame.size.width]];
+    [creditButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [creditButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
+    
 }
 
 - (UIImageView*)attachImage:(NSString*)filename withSize:(CGFloat)size {
