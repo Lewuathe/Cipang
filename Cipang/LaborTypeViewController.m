@@ -7,6 +7,7 @@
 //
 
 #import "LaborTypeViewController.h"
+#import "FlatUIKit.h"
 
 @interface LaborTypeViewController ()
 
@@ -43,19 +44,21 @@
     [chart setLabelShadowColor:[UIColor blackColor]];
     
     _sliceColors = [NSArray arrayWithObjects:
-                    [UIColor colorWithRed:255/255.0 green:127/255.0 blue:127/255.0 alpha:1],
-                    [UIColor colorWithRed:255/255.0 green:127/255.0 blue:191/255.0 alpha:1],
-                    [UIColor colorWithRed:255/255.0 green:127/255.0 blue:255/255.0 alpha:1],
-                    [UIColor colorWithRed:191/255.0 green:127/255.0 blue:255/255.0 alpha:1],
-                    [UIColor colorWithRed:127/255.0 green:127/255.0 blue:255/255.0 alpha:1],
-                    [UIColor colorWithRed:127/255.0 green:191/255.0 blue:255/255.0 alpha:1],
-                    [UIColor colorWithRed:127/255.0 green:255/255.0 blue:255/255.0 alpha:1],
-                    [UIColor colorWithRed:127/255.0 green:255/255.0 blue:191/255.0 alpha:1],
-                    [UIColor colorWithRed:127/255.0 green:255/255.0 blue:127/255.0 alpha:1],
-                    [UIColor colorWithRed:191/255.0 green:255/255.0 blue:127/255.0 alpha:1],
-                    [UIColor colorWithRed:255/255.0 green:255/255.0 blue:127/255.0 alpha:1],
-                    [UIColor colorWithRed:255/255.0 green:191/255.0 blue:127/255.0 alpha:1],
-                    [UIColor colorWithRed:219/255.0 green:219/255.0 blue:255/255.0 alpha:1], nil];
+                    [UIColor turquoiseColor],
+                    [UIColor greenSeaColor],
+                    [UIColor emerlandColor],
+                    [UIColor nephritisColor],
+                    //                    [UIColor colorWithRed:184/255.0 green:210/255.0 blue:0/255.0 alpha:1],
+                    [UIColor colorWithRed:0/255.0 green:110/255.0 blue:84/255.0 alpha:1],
+                    [UIColor colorWithRed:147/255.0 green:202/255.0 blue:118/255.0 alpha:1],
+                    [UIColor colorWithRed:105/255.0 green:176/255.0 blue:118/255.0 alpha:1],
+                    [UIColor colorWithRed:71/255.0 green:136/255.0 blue:94/255.0 alpha:1],
+                    [UIColor colorWithRed:49/255.0 green:103/255.0 blue:69/255.0 alpha:1],
+                    [UIColor colorWithRed:62/255.0 green:179/255.0 blue:112/255.0 alpha:1],
+                    [UIColor colorWithRed:0/255.0 green:123/255.0 blue:67/255.0 alpha:1],
+                    [UIColor colorWithRed:0/255.0 green:85/255.0 blue:46/255.0 alpha:1],
+                    [UIColor colorWithRed:0/255.0 green:82/255.0 blue:67/255.0 alpha:1],
+                    nil];
     
     /*
     _categoryName = [NSArray arrayWithObjects:

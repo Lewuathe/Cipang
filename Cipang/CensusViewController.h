@@ -14,6 +14,7 @@
 #import "PNLineChartDataItem.h"
 
 @interface CensusViewController : BaseViewController <PNChartDelegate, UIPopoverControllerDelegate> {
+    IBOutlet PNCircleChart *yearCircle;
     IBOutlet PNBarChart *barChart;
     IBOutlet PNBarChart *manBarChart;
     IBOutlet PNBarChart *womenBarChart;

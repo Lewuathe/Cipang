@@ -35,6 +35,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+
     NSBundle *bundle = [NSBundle mainBundle];
     
     NSString *manPath = [bundle pathForResource:@"man_population_2010" ofType:@"plist"];
@@ -80,7 +81,7 @@
     
     UIViewController *vc = [[UIViewController alloc] init];
     vc.preferredContentSize = CGSizeMake(150, 50);
-    vc.view.backgroundColor = [UIColor whiteColor];
+//    vc.view.backgroundColor = [UIColor whiteColor];
     vc.title = @"Population";
     vc.navigationController.navigationBar.titleTextAttributes = @{UITextAttributeFont: [UIFont boldFlatFontOfSize:18],UITextAttributeTextColor: [UIColor whiteColor]};
     

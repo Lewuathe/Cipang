@@ -48,40 +48,40 @@
     [button1 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button1 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button2.buttonColor = [UIColor carrotColor];
-    button2.shadowColor = [UIColor pumpkinColor];
+    button2.buttonColor = [UIColor turquoiseColor];
+    button2.shadowColor = [UIColor greenSeaColor];
     button2.shadowHeight = 3.0f;
     button2.cornerRadius = 6.0f;
     [button2 addSubview:[self attachImage:@"house.png" withSize:button2.frame.size.width]];
     [button2 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button2 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button3.buttonColor = [UIColor peterRiverColor];
-    button3.shadowColor = [UIColor belizeHoleColor];
+    button3.buttonColor = [UIColor turquoiseColor];
+    button3.shadowColor = [UIColor greenSeaColor];
     button3.shadowHeight = 3.0f;
     button3.cornerRadius = 6.0f;
     [button3 addSubview:[self attachImage:@"labor.png" withSize:button3.frame.size.width]];
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button3 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button4.buttonColor = [UIColor amethystColor];
-    button4.shadowColor = [UIColor wisteriaColor];
+    button4.buttonColor = [UIColor turquoiseColor];
+    button4.shadowColor = [UIColor greenSeaColor];
     button4.shadowHeight = 3.0f;
     button4.cornerRadius = 6.0f;
     [button4 addSubview:[self attachImage:@"foreigner.png" withSize:button4.frame.size.width]];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button4 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button5.buttonColor = [UIColor alizarinColor];
-    button5.shadowColor = [UIColor pomegranateColor];
+    button5.buttonColor = [UIColor turquoiseColor];
+    button5.shadowColor = [UIColor greenSeaColor];
     button5.shadowHeight = 3.0f;
     button5.cornerRadius = 6.0f;
     [button5 addSubview:[self attachImage:@"education.png" withSize:button5.frame.size.width]];
     [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [button5 setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
-    button6.buttonColor = [UIColor sunflowerColor];
-    button6.shadowColor = [UIColor orangeColor];
+    button6.buttonColor = [UIColor turquoiseColor];
+    button6.shadowColor = [UIColor greenSeaColor];
     button6.shadowHeight = 3.0f;
     button6.cornerRadius = 6.0f;
     [button6 addSubview:[self attachImage:@"family.png" withSize:button6.frame.size.width]];
