@@ -14,6 +14,8 @@
     Population *_population;
     
     NSArray *_transitionPopulation;
+    NSArray *_manTransitionPopulation;
+    NSArray *_womanTransitionPopulation;
     UIPopoverController *_popoverController;
 }
 
@@ -61,17 +63,41 @@
     NSDictionary *transitionRoot = [NSDictionary dictionaryWithContentsOfFile:transitionPath];
     _transitionPopulation = [transitionRoot objectForKey:@"Populations"];
     [populationTransition setXLabels:@[@"1980",@"1985",@"1990",@"1995",@"2000",@"2005",@"2010"]];
-
     NSArray * dataArray = _transitionPopulation;
     PNLineChartData *data01 = [PNLineChartData new];
     data01.color = PNFreshGreen;
     data01.itemCount = populationTransition.xLabels.count;
-    CGFloat baseValue = [[dataArray objectAtIndex:0] floatValue];
     data01.getData = ^(NSUInteger index) {
-        CGFloat yValue = [[dataArray objectAtIndex:index] floatValue] - baseValue;
+        CGFloat yValue = [[dataArray objectAtIndex:index] floatValue];
         return [PNLineChartDataItem dataItemWithY:yValue];
     };
-    populationTransition.chartData = @[data01];
+    
+    NSString *manTransitionPath = [bundle pathForResource:@"man_population_transition" ofType:@"plist"];
+    NSDictionary *manTransitionRoot = [NSDictionary dictionaryWithContentsOfFile:manTransitionPath];
+    _manTransitionPopulation = [manTransitionRoot objectForKey:@"Populations"];
+    NSArray *manDataArray = _manTransitionPopulation;
+    PNLineChartData *data02 = [PNLineChartData new];
+    data02.color = [UIColor greenSeaColor];
+    data02.itemCount = populationTransition.xLabels.count;
+    data02.getData = ^(NSUInteger index) {
+        CGFloat yValue = [[manDataArray objectAtIndex:index] floatValue];
+        return [PNLineChartDataItem dataItemWithY:yValue];
+    };
+
+    
+    NSString *womanTransitionPath = [bundle pathForResource:@"woman_population_transition" ofType:@"plist"];
+    NSDictionary *womanTransitionRoot = [NSDictionary dictionaryWithContentsOfFile:womanTransitionPath];
+    _womanTransitionPopulation = [womanTransitionRoot objectForKey:@"Populations"];
+    NSArray *womanDataArray = _manTransitionPopulation;
+    PNLineChartData *data03 = [PNLineChartData new];
+    data03.color = [UIColor orangeColor];
+    data03.itemCount = populationTransition.xLabels.count;
+    data03.getData = ^(NSUInteger index) {
+        CGFloat yValue = [[womanDataArray objectAtIndex:index] floatValue];
+        return [PNLineChartDataItem dataItemWithY:yValue];
+    };
+
+    populationTransition.chartData = @[data01, data02, data03];
     populationTransition.delegate = self;
     [populationTransition strokeChart];
 }

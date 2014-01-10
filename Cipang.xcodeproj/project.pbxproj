@@ -65,6 +65,10 @@
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
+		87D33A9818800379009C07CD /* man_population_transition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A9718800379009C07CD /* man_population_transition.plist */; };
+		87D33A9A188010B7009C07CD /* woman_population_transition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A99188010B7009C07CD /* woman_population_transition.plist */; };
+		87D33A9E18802476009C07CD /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A9D18802476009C07CD /* japan.png */; };
+		87D33AA118802760009C07CD /* RoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D33AA018802760009C07CD /* RoundRectButton.m */; };
 		87F65BF0187D786000C02BF5 /* foreigner.png in Resources */ = {isa = PBXBuildFile; fileRef = 87F65BEF187D786000C02BF5 /* foreigner.png */; };
 /* End PBXBuildFile section */
 
@@ -165,6 +169,11 @@
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		8790D4C41863306200D2AF18 /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
 		8790D4C51863306200D2AF18 /* Population.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Population.m; sourceTree = "<group>"; };
+		87D33A9718800379009C07CD /* man_population_transition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = man_population_transition.plist; sourceTree = "<group>"; };
+		87D33A99188010B7009C07CD /* woman_population_transition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = woman_population_transition.plist; sourceTree = "<group>"; };
+		87D33A9D18802476009C07CD /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
+		87D33A9F18802760009C07CD /* RoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundRectButton.h; sourceTree = "<group>"; };
+		87D33AA018802760009C07CD /* RoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundRectButton.m; sourceTree = "<group>"; };
 		87F65BEF187D786000C02BF5 /* foreigner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foreigner.png; sourceTree = "<group>"; };
 		C5A0A88EC4C745B99FD32F27 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		CDB928F6B5B44F798AF284B0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -306,6 +315,7 @@
 		872708B51861D02100E9B1DA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				87D33A9D18802476009C07CD /* japan.png */,
 				8780CB7E187AE4A100646BC1 /* population.png */,
 				8780CB84187AE9DE00646BC1 /* house.png */,
 				8780CB86187AEA8A00646BC1 /* labor.png */,
@@ -352,6 +362,8 @@
 			isa = PBXGroup;
 			children = (
 				8780CB78187964B500646BC1 /* total_population_transition.plist */,
+				87D33A9718800379009C07CD /* man_population_transition.plist */,
+				87D33A99188010B7009C07CD /* woman_population_transition.plist */,
 				8780CB76187919C300646BC1 /* family_category_2010.plist */,
 				8780CB74187916C400646BC1 /* education_category_2010.plist */,
 				8780CB6C187911F200646BC1 /* labor_type_2010.plist */,
@@ -372,6 +384,8 @@
 				872708BC1861D45100E9B1DA /* BaseViewController.m */,
 				8780CB611878FFB500646BC1 /* PieChartViewController.h */,
 				8780CB621878FFB500646BC1 /* PieChartViewController.m */,
+				87D33A9F18802760009C07CD /* RoundRectButton.h */,
+				87D33AA018802760009C07CD /* RoundRectButton.m */,
 			);
 			name = Parents;
 			sourceTree = "<group>";
@@ -473,8 +487,11 @@
 				877EF98418784ECE007BD248 /* labor_category_2010.plist in Resources */,
 				877EF97E18783A56007BD248 /* population_2010.plist in Resources */,
 				877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */,
+				87D33A9818800379009C07CD /* man_population_transition.plist in Resources */,
 				872708831861C99000E9B1DA /* InfoPlist.strings in Resources */,
+				87D33A9E18802476009C07CD /* japan.png in Resources */,
 				8789B4E4187C4614005F8AC1 /* credit.png in Resources */,
+				87D33A9A188010B7009C07CD /* woman_population_transition.plist in Resources */,
 				8789B4E2187C3F4D005F8AC1 /* blurimage.jpg in Resources */,
 				8780CB8B187AEEAB00646BC1 /* family.png in Resources */,
 				8789B4DE187C39CD005F8AC1 /* setting.png in Resources */,
@@ -548,6 +565,7 @@
 				8780CB701879140900646BC1 /* FamilyViewController.m in Sources */,
 				872708851861C99000E9B1DA /* main.m in Sources */,
 				872708C61861D67B00E9B1DA /* ClassInf.m in Sources */,
+				87D33AA118802760009C07CD /* RoundRectButton.m in Sources */,
 				872708D31861D69200E9B1DA /* ListInf.m in Sources */,
 				872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */,
 				8780CB631878FFB500646BC1 /* PieChartViewController.m in Sources */,
