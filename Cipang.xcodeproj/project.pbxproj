@@ -37,6 +37,7 @@
 		872708E01861D6A400E9B1DA /* ResponseParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DC1861D6A400E9B1DA /* ResponseParser.m */; };
 		872708E11861D6A400E9B1DA /* TableInf.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DD1861D6A400E9B1DA /* TableInf.m */; };
 		872708E21861D6A400E9B1DA /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DF1861D6A400E9B1DA /* Value.m */; };
+		873EC4AB188175EC005B7E26 /* regional_population.plist in Resources */ = {isa = PBXBuildFile; fileRef = 873EC4AA188175EC005B7E26 /* regional_population.plist */; };
 		877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97A18783A56007BD248 /* woman_population_2010.plist */; };
 		877EF97E18783A56007BD248 /* population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97B18783A56007BD248 /* population_2010.plist */; };
 		877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97C18783A56007BD248 /* man_population_2010.plist */; };
@@ -132,6 +133,7 @@
 		872708DD1861D6A400E9B1DA /* TableInf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableInf.m; sourceTree = "<group>"; };
 		872708DE1861D6A400E9B1DA /* Value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Value.h; sourceTree = "<group>"; };
 		872708DF1861D6A400E9B1DA /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
+		873EC4AA188175EC005B7E26 /* regional_population.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regional_population.plist; sourceTree = "<group>"; };
 		877EF97A18783A56007BD248 /* woman_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = woman_population_2010.plist; path = data/woman_population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97B18783A56007BD248 /* population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = population_2010.plist; path = data/population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97C18783A56007BD248 /* man_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = man_population_2010.plist; path = data/man_population_2010.plist; sourceTree = SOURCE_ROOT; };
@@ -373,6 +375,7 @@
 				877EF97B18783A56007BD248 /* population_2010.plist */,
 				877EF97C18783A56007BD248 /* man_population_2010.plist */,
 				8780CB5B1878FEFF00646BC1 /* house_category_2010.plist */,
+				873EC4AA188175EC005B7E26 /* regional_population.plist */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -493,6 +496,7 @@
 				8789B4E4187C4614005F8AC1 /* credit.png in Resources */,
 				87D33A9A188010B7009C07CD /* woman_population_transition.plist in Resources */,
 				8789B4E2187C3F4D005F8AC1 /* blurimage.jpg in Resources */,
+				873EC4AB188175EC005B7E26 /* regional_population.plist in Resources */,
 				8780CB8B187AEEAB00646BC1 /* family.png in Resources */,
 				8789B4DE187C39CD005F8AC1 /* setting.png in Resources */,
 				8780CB87187AEA8A00646BC1 /* labor.png in Resources */,
