@@ -5,99 +5,99 @@
 	<key>Populations</key>
 	<dict>
 		<key>OKINAWA</key>
-		<string></string>
+		<integer>1392818</integer>
 		<key>KAGOSHIMA</key>
-		<string></string>
+		<integer>1706242</integer>
 		<key>MIYAZAKI</key>
-		<string></string>
+		<integer>1135233</integer>
 		<key>OOITA</key>
-		<string></string>
+		<integer>1196529</integer>
 		<key>KUMAMOTO</key>
-		<string></string>
+		<integer>1817426</integer>
 		<key>NAGASAKI</key>
-		<string></string>
+		<integer>1426779</integer>
 		<key>SAGA</key>
-		<string></string>
+		<integer>849788</integer>
 		<key>FUKUOKA</key>
-		<string></string>
+		<integer>5071968</integer>
 		<key>KOCHI</key>
-		<string></string>
+		<integer>764456</integer>
 		<key>EHIME</key>
-		<string></string>
+		<integer>143149</integer>
 		<key>KAGAWA</key>
-		<string></string>
+		<integer>995842</integer>
 		<key>TOKUSHIMA</key>
-		<string></string>
+		<integer>785491</integer>
 		<key>YAMAGUCHI</key>
-		<string></string>
+		<integer>1451338</integer>
 		<key>HIROSHIMA</key>
-		<string></string>
+		<integer>2860750</integer>
 		<key>OKAYAMA</key>
-		<string></string>
+		<integer>1945276</integer>
 		<key>SHIMANE</key>
-		<string></string>
+		<integer>717397</integer>
 		<key>TOTTORI</key>
-		<string></string>
+		<integer>588667</integer>
 		<key>WAKAYAMA</key>
-		<string></string>
+		<integer>1002198</integer>
 		<key>NARA</key>
-		<string></string>
+		<integer>1400728</integer>
 		<key>HYOGO</key>
-		<string></string>
+		<integer>5588133</integer>
 		<key>OSAKA</key>
-		<string></string>
+		<integer>8865245</integer>
 		<key>KYOTO</key>
-		<string></string>
+		<integer>2636092</integer>
 		<key>SHIGA</key>
-		<string></string>
+		<integer>1410777</integer>
 		<key>MIE</key>
-		<string></string>
+		<integer>1854724</integer>
 		<key>AICHI</key>
-		<string></string>
+		<integer>7410719</integer>
 		<key>SHIZUOKA</key>
-		<string></string>
+		<integer>3765007</integer>
 		<key>GIFU</key>
-		<string></string>
+		<integer>2080773</integer>
 		<key>NAGANO</key>
-		<string></string>
+		<integer>2152449</integer>
 		<key>YAMANASHI</key>
-		<string></string>
+		<integer>863075</integer>
 		<key>FUKUI</key>
-		<string></string>
+		<integer>806314</integer>
 		<key>ISHIKAWA</key>
-		<string></string>
+		<integer>1169788</integer>
 		<key>TOYAMA</key>
-		<string></string>
+		<integer>1093247</integer>
 		<key>NIIGATA</key>
-		<string></string>
+		<integer>2374450</integer>
 		<key>KANAGAWA</key>
-		<string></string>
+		<integer>9048331</integer>
 		<key>TOKYO</key>
-		<string></string>
+		<integer>13159388</integer>
 		<key>CHIBA</key>
-		<string></string>
+		<integer>6216289</integer>
 		<key>SAITAMA</key>
-		<string></string>
+		<integer>7194556</integer>
 		<key>GUMMA</key>
-		<string></string>
+		<integer>2008068</integer>
 		<key>TOCHIGI</key>
-		<string></string>
+		<integer>2007683</integer>
 		<key>IBARAKI</key>
-		<string></string>
+		<integer>2969770</integer>
 		<key>FUKUSHIMA</key>
-		<string></string>
+		<integer>2029064</integer>
 		<key>YAMAGATA</key>
-		<string></string>
+		<integer>1168924</integer>
 		<key>AKITA</key>
-		<string></string>
+		<integer>1085997</integer>
 		<key>MIYAGI</key>
-		<string></string>
+		<integer>2348165</integer>
 		<key>IWATE</key>
-		<string>1,330,147</string>
+		<integer>1330147</integer>
 		<key>AOMORI</key>
-		<string>1373339</string>
+		<integer>1373339</integer>
 		<key>HOKKAIDO</key>
-		<string>5506419</string>
+		<integer>5506419</integer>
 	</dict>
 </dict>
 </plist>

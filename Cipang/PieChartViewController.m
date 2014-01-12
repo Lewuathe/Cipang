@@ -81,6 +81,7 @@
     label.text = @"";
     data.text = @"";
 }
+
 - (void)pieChart:(XYPieChart *)pieChart didSelectSliceAtIndex:(NSUInteger)index
 {
     NSLog(@"did select slice at index %d",index);

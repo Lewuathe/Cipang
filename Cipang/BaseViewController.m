@@ -44,6 +44,16 @@
     [self.navigationController popToRootViewControllerAnimated:NO];
 }
 
+- (NSString*)threeCammaNumber:(NSNumber*)number {
+    NSNumberFormatter* formatter = [[NSNumberFormatter alloc] init];
+    
+    [formatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    [formatter setGroupingSeparator:@","];
+    [formatter setGroupingSize:3];
+    
+    return [formatter stringForObjectValue:number];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -354,10 +354,6 @@
                                 <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="30"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="japan.png" translatesAutoresizingMaskIntoConstraints="NO" id="fP6-at-RUt">
-                                <rect key="frame" x="384" y="232" width="620" height="502"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGh-q8-rhi" customClass="RoundRectButton">
                                 <rect key="frame" x="875" y="235" width="127" height="113"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -795,9 +791,56 @@
                         </connections>
                     </view>
                     <connections>
+                        <outlet property="aichiBtn" destination="jcO-fH-uS3" id="i9C-ev-L2I"/>
+                        <outlet property="akitaBtn" destination="ZFJ-WY-Rw1" id="QRz-qB-814"/>
+                        <outlet property="aomoriBtn" destination="Avi-hN-37o" id="IbY-6f-vDw"/>
+                        <outlet property="chibaBtn" destination="S1I-lu-RIa" id="oBE-87-l3X"/>
+                        <outlet property="ehimeBtn" destination="9r0-iC-wDE" id="PEd-fW-AcE"/>
+                        <outlet property="fukuiBtn" destination="9oR-k4-c7q" id="iOu-27-C9j"/>
+                        <outlet property="fukuokaBtn" destination="Ql8-sS-TM8" id="p1U-Cq-wi8"/>
+                        <outlet property="fukushimaBtn" destination="5KS-D6-iyQ" id="5zI-Pe-FTE"/>
+                        <outlet property="gifuBtn" destination="nxJ-fg-l33" id="82Z-ZU-9D9"/>
+                        <outlet property="gummaBtn" destination="MWF-tn-a1O" id="KNc-Ka-fxf"/>
+                        <outlet property="hiroshimaBtn" destination="l1j-Dw-KTS" id="314-11-HnF"/>
+                        <outlet property="hokkaidoBtn" destination="LGh-q8-rhi" id="5tW-jR-H70"/>
+                        <outlet property="hyogoBtn" destination="7op-gl-2dp" id="vq6-2L-1s0"/>
+                        <outlet property="ibarakiBtn" destination="Ojv-lv-lbW" id="a25-21-qJQ"/>
+                        <outlet property="ishikawaBtn" destination="8da-0R-kwu" id="mY4-my-kEJ"/>
+                        <outlet property="iwateBtn" destination="pYg-yK-V1x" id="B6H-Lh-OKB"/>
+                        <outlet property="kagawaBtn" destination="rKR-6d-QKX" id="cUH-Ws-9nZ"/>
+                        <outlet property="kagoshimaBtn" destination="1xz-Yh-UWB" id="zKg-Ec-mgG"/>
+                        <outlet property="kanagawaBtn" destination="Xyt-tY-NSQ" id="20I-To-jlZ"/>
+                        <outlet property="kochiBtn" destination="Wqo-cV-SlY" id="0Kh-z3-EAW"/>
+                        <outlet property="kumamotoBtn" destination="6OJ-pt-oMq" id="8Pd-5s-F3T"/>
+                        <outlet property="kyotoBtn" destination="kH5-56-nsQ" id="skV-3k-8fZ"/>
                         <outlet property="manBarChart" destination="z3H-Mm-63X" id="gdS-KF-bMG"/>
+                        <outlet property="mieBtn" destination="orX-Qm-5Ag" id="e67-nG-A4i"/>
+                        <outlet property="miyagiBtn" destination="1OG-uA-PMu" id="C1a-Cu-t8R"/>
+                        <outlet property="miyazakiBtn" destination="2nw-Tl-ZHn" id="tGU-zn-Vsw"/>
+                        <outlet property="naganoBtn" destination="mbQ-Yl-C9I" id="kr1-Ag-180"/>
+                        <outlet property="nagasakiBtn" destination="ex0-rh-9Sy" id="h52-vU-la3"/>
+                        <outlet property="naraBtn" destination="jcO-ed-Qf9" id="urH-1f-xH5"/>
+                        <outlet property="niigataBtn" destination="ilj-hb-XMD" id="Emm-bl-ccA"/>
+                        <outlet property="okayamaBtn" destination="hfd-Vs-Bwk" id="PUM-5Z-5rn"/>
+                        <outlet property="okinawaBtn" destination="y68-AH-nnG" id="Zhq-44-Ity"/>
+                        <outlet property="ooitaBtn" destination="pdU-8u-Mcj" id="VaL-g8-ndL"/>
+                        <outlet property="osakaBtn" destination="xle-uD-a3Z" id="iiC-QO-h7m"/>
                         <outlet property="populationTransition" destination="q54-5G-rD9" id="YWi-A0-d6z"/>
+                        <outlet property="sagaBtn" destination="F5f-NF-RNO" id="sOC-rs-Ubf"/>
+                        <outlet property="saitamaBtn" destination="ad3-tt-VL6" id="J6e-D8-Rg1"/>
+                        <outlet property="shigaBtn" destination="UaZ-Bx-05U" id="Wdk-Pm-vVh"/>
+                        <outlet property="shimaneBtn" destination="QL3-T4-ZUU" id="VcX-4y-oUE"/>
+                        <outlet property="shizuokaBtn" destination="xZO-Qt-TQQ" id="O4g-NF-XMA"/>
+                        <outlet property="tochigiBtn" destination="dil-I9-6Yf" id="3Rq-as-upO"/>
+                        <outlet property="tokushimaBtn" destination="DLE-X5-lDS" id="T86-Gn-agq"/>
+                        <outlet property="tokyoBtn" destination="nV9-Gi-dB6" id="0iF-W5-Sf8"/>
+                        <outlet property="tottoriBtn" destination="xA5-jg-RFi" id="zx8-RL-HhJ"/>
+                        <outlet property="toyamaBtn" destination="bfA-5V-gGh" id="Rqr-3J-zuE"/>
+                        <outlet property="wakayamaBtn" destination="9tj-fh-dGn" id="5Zj-aR-cgt"/>
                         <outlet property="womenBarChart" destination="QPw-Ji-WbS" id="xHW-Rh-aNf"/>
+                        <outlet property="yamagataBtn" destination="Rye-cm-U5E" id="lbb-6l-5gc"/>
+                        <outlet property="yamaguchiBtn" destination="5LM-g2-jfj" id="6QT-qA-k2j"/>
+                        <outlet property="yamanashiBtn" destination="CBR-Hw-Nm8" id="LCg-4G-fb9"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r0a-uQ-0cC" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1173,9 +1216,6 @@
             <point key="canvasLocation" x="-614" y="-781"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="japan.png" width="700" height="535"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
         <simulatedOrientationMetrics key="orientation"/>

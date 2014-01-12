@@ -17,6 +17,8 @@
     NSArray *_manTransitionPopulation;
     NSArray *_womanTransitionPopulation;
     UIPopoverController *_popoverController;
+    
+    NSDictionary *_regionalPopulation;
 }
 
 @end
@@ -100,6 +102,10 @@
     populationTransition.chartData = @[data01, data02, data03];
     populationTransition.delegate = self;
     [populationTransition strokeChart];
+    
+    NSString *regionalTransitionPath = [bundle pathForResource:@"regional_population" ofType:@"plist"];
+    _regionalPopulation = [[NSDictionary dictionaryWithContentsOfFile:regionalTransitionPath] objectForKey:@"Populations"];
+    
 }
 
 -(void)userClickedOnLineKeyPoint:(CGPoint)point lineIndex:(NSInteger)lineIndex andPointIndex:(NSInteger)pointIndex{

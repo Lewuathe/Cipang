@@ -14,5 +14,6 @@ typedef void (^Handler)(StatsResponse*);
 @interface BaseViewController : UIViewController <UIGestureRecognizerDelegate>
 
 - (IBAction)handlePinchGesture:(id)sender;
+- (NSString*)threeCammaNumber:(NSNumber*)number;
 
 @end
