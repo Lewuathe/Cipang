@@ -14,7 +14,7 @@
 #import "PNLineChartDataItem.h"
 
 @interface CensusViewController : BaseViewController <PNChartDelegate, UIPopoverControllerDelegate> {
-    IBOutlet PNCircleChart *yearCircle;
+    IBOutlet PNCircleChart *regionalPopulationCircle;
     IBOutlet PNBarChart *barChart;
     IBOutlet PNBarChart *manBarChart;
     IBOutlet PNBarChart *womenBarChart;
@@ -71,6 +71,8 @@
     
     IBOutlet UILabel *regionNameLabel;
     IBOutlet UILabel *regionPopulationLabel;
+    
+    
     
 }
 

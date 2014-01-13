@@ -106,6 +106,14 @@
     NSString *regionalTransitionPath = [bundle pathForResource:@"regional_population" ofType:@"plist"];
     _regionalPopulation = [[NSDictionary dictionaryWithContentsOfFile:regionalTransitionPath] objectForKey:@"Populations"];
     
+    
+    regionalPopulationCircle = [[PNCircleChart alloc] initWithFrame:CGRectMake(200.0, 200.0, 100.0, 100.0)
+                                                           andTotal:[_regionalPopulation objectForKey:@"TOKYO"]
+                                                         andCurrent:[NSNumber numberWithInt:0]];
+    regionalPopulationCircle.backgroundColor = [UIColor clearColor];
+    [regionalPopulationCircle setStrokeColor:PNGreen];
+
+    [self.view addSubview:regionalPopulationCircle];
 }
 
 - (IBAction)pushRegion:(id)sender {
@@ -113,6 +121,10 @@
     NSLog(@"%@", [self threeCammaNumber:[_regionalPopulation objectForKey:regionButton.titleLabel.text]]);
     regionNameLabel.text = regionButton.titleLabel.text;
     regionPopulationLabel.text = [self threeCammaNumber:[_regionalPopulation objectForKey:regionButton.titleLabel.text]];
+
+    regionalPopulationCircle.current = [_regionalPopulation objectForKey:regionButton.titleLabel.text];
+    [regionalPopulationCircle strokeChart];
+
 }
 
 -(void)userClickedOnLineKeyPoint:(CGPoint)point lineIndex:(NSInteger)lineIndex andPointIndex:(NSInteger)pointIndex{
