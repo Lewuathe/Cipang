@@ -19,7 +19,6 @@
         self.layer.borderWidth = 1.0f;
         self.layer.cornerRadius = 7.5f;
     }
-	
     return self;
 }
 

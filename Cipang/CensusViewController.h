@@ -69,6 +69,11 @@
     IBOutlet UIButton *kagoshimaBtn;
     IBOutlet UIButton *okinawaBtn;
     
+    IBOutlet UILabel *regionNameLabel;
+    IBOutlet UILabel *regionPopulationLabel;
+    
 }
+
+- (IBAction)pushRegion:(id)sender;
 
 @end

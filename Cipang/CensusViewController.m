@@ -108,6 +108,13 @@
     
 }
 
+- (IBAction)pushRegion:(id)sender {
+    UIButton *regionButton = (UIButton*)sender;
+    NSLog(@"%@", [self threeCammaNumber:[_regionalPopulation objectForKey:regionButton.titleLabel.text]]);
+    regionNameLabel.text = regionButton.titleLabel.text;
+    regionPopulationLabel.text = [self threeCammaNumber:[_regionalPopulation objectForKey:regionButton.titleLabel.text]];
+}
+
 -(void)userClickedOnLineKeyPoint:(CGPoint)point lineIndex:(NSInteger)lineIndex andPointIndex:(NSInteger)pointIndex{
     NSLog(@"Click Key on line %f, %f line index is %d and point index is %d",point.x, point.y,(int)lineIndex, (int)pointIndex);
     
