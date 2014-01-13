@@ -39,6 +39,8 @@
 		872708E21861D6A400E9B1DA /* Value.m in Sources */ = {isa = PBXBuildFile; fileRef = 872708DF1861D6A400E9B1DA /* Value.m */; };
 		873EC4AB188175EC005B7E26 /* regional_population.plist in Resources */ = {isa = PBXBuildFile; fileRef = 873EC4AA188175EC005B7E26 /* regional_population.plist */; };
 		87790F081884027B00136179 /* population_favicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87790F071884027B00136179 /* population_favicon@2x.png */; };
+		87790F0A1884078200136179 /* house_rent_price.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87790F091884078200136179 /* house_rent_price.plist */; };
+		87790F0D18840D0A00136179 /* PieChart2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87790F0C18840D0A00136179 /* PieChart2ViewController.m */; };
 		877EF97D18783A56007BD248 /* woman_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97A18783A56007BD248 /* woman_population_2010.plist */; };
 		877EF97E18783A56007BD248 /* population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97B18783A56007BD248 /* population_2010.plist */; };
 		877EF97F18783A56007BD248 /* man_population_2010.plist in Resources */ = {isa = PBXBuildFile; fileRef = 877EF97C18783A56007BD248 /* man_population_2010.plist */; };
@@ -67,6 +69,7 @@
 		8790D4BE18632D6D00D2AF18 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8790D4BD18632D6D00D2AF18 /* QuartzCore.framework */; };
 		8790D4C11863303100D2AF18 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C01863303100D2AF18 /* BaseModel.m */; };
 		8790D4C61863306200D2AF18 /* Population.m in Sources */ = {isa = PBXBuildFile; fileRef = 8790D4C51863306200D2AF18 /* Population.m */; };
+		87B88DBC188416D4000877B6 /* house_favicon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B88DBB188416D4000877B6 /* house_favicon@2x.png */; };
 		87D33A9818800379009C07CD /* man_population_transition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A9718800379009C07CD /* man_population_transition.plist */; };
 		87D33A9A188010B7009C07CD /* woman_population_transition.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A99188010B7009C07CD /* woman_population_transition.plist */; };
 		87D33A9E18802476009C07CD /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = 87D33A9D18802476009C07CD /* japan.png */; };
@@ -136,6 +139,9 @@
 		872708DF1861D6A400E9B1DA /* Value.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Value.m; sourceTree = "<group>"; };
 		873EC4AA188175EC005B7E26 /* regional_population.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = regional_population.plist; sourceTree = "<group>"; };
 		87790F071884027B00136179 /* population_favicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "population_favicon@2x.png"; sourceTree = "<group>"; };
+		87790F091884078200136179 /* house_rent_price.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = house_rent_price.plist; sourceTree = "<group>"; };
+		87790F0B18840D0A00136179 /* PieChart2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChart2ViewController.h; sourceTree = "<group>"; };
+		87790F0C18840D0A00136179 /* PieChart2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChart2ViewController.m; sourceTree = "<group>"; };
 		877EF97A18783A56007BD248 /* woman_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = woman_population_2010.plist; path = data/woman_population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97B18783A56007BD248 /* population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = population_2010.plist; path = data/population_2010.plist; sourceTree = SOURCE_ROOT; };
 		877EF97C18783A56007BD248 /* man_population_2010.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = man_population_2010.plist; path = data/man_population_2010.plist; sourceTree = SOURCE_ROOT; };
@@ -173,6 +179,7 @@
 		8790D4C01863303100D2AF18 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
 		8790D4C41863306200D2AF18 /* Population.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Population.h; sourceTree = "<group>"; };
 		8790D4C51863306200D2AF18 /* Population.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Population.m; sourceTree = "<group>"; };
+		87B88DBB188416D4000877B6 /* house_favicon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "house_favicon@2x.png"; sourceTree = "<group>"; };
 		87D33A9718800379009C07CD /* man_population_transition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = man_population_transition.plist; sourceTree = "<group>"; };
 		87D33A99188010B7009C07CD /* woman_population_transition.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = woman_population_transition.plist; sourceTree = "<group>"; };
 		87D33A9D18802476009C07CD /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
@@ -319,6 +326,7 @@
 		872708B51861D02100E9B1DA /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				87B88DBB188416D4000877B6 /* house_favicon@2x.png */,
 				87790F071884027B00136179 /* population_favicon@2x.png */,
 				87D33A9D18802476009C07CD /* japan.png */,
 				8780CB7E187AE4A100646BC1 /* population@2x.png */,
@@ -379,6 +387,7 @@
 				877EF97C18783A56007BD248 /* man_population_2010.plist */,
 				8780CB5B1878FEFF00646BC1 /* house_category_2010.plist */,
 				873EC4AA188175EC005B7E26 /* regional_population.plist */,
+				87790F091884078200136179 /* house_rent_price.plist */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -390,6 +399,8 @@
 				872708BC1861D45100E9B1DA /* BaseViewController.m */,
 				8780CB611878FFB500646BC1 /* PieChartViewController.h */,
 				8780CB621878FFB500646BC1 /* PieChartViewController.m */,
+				87790F0B18840D0A00136179 /* PieChart2ViewController.h */,
+				87790F0C18840D0A00136179 /* PieChart2ViewController.m */,
 				87D33A9F18802760009C07CD /* RoundRectButton.h */,
 				87D33AA018802760009C07CD /* RoundRectButton.m */,
 			);
@@ -487,6 +498,7 @@
 			files = (
 				8780CB85187AE9DE00646BC1 /* house.png in Resources */,
 				8780CB7F187AE4A100646BC1 /* population@2x.png in Resources */,
+				87790F0A1884078200136179 /* house_rent_price.plist in Resources */,
 				8780CB79187964B500646BC1 /* total_population_transition.plist in Resources */,
 				872708911861C99000E9B1DA /* Images.xcassets in Resources */,
 				8780CB75187916C400646BC1 /* education_category_2010.plist in Resources */,
@@ -505,6 +517,7 @@
 				8789B4DE187C39CD005F8AC1 /* setting.png in Resources */,
 				8780CB87187AEA8A00646BC1 /* labor.png in Resources */,
 				87F65BF0187D786000C02BF5 /* foreigner.png in Resources */,
+				87B88DBC188416D4000877B6 /* house_favicon@2x.png in Resources */,
 				8780CB89187AEBB800646BC1 /* education.png in Resources */,
 				8727088C1861C99000E9B1DA /* Main.storyboard in Resources */,
 				8780CB6818790BD200646BC1 /* foreigner_category_2010.plist in Resources */,
@@ -575,6 +588,7 @@
 				872708C61861D67B00E9B1DA /* ClassInf.m in Sources */,
 				87D33AA118802760009C07CD /* RoundRectButton.m in Sources */,
 				872708D31861D69200E9B1DA /* ListInf.m in Sources */,
+				87790F0D18840D0A00136179 /* PieChart2ViewController.m in Sources */,
 				872708B41861CE6A00E9B1DA /* DissolveSegue.m in Sources */,
 				8780CB631878FFB500646BC1 /* PieChartViewController.m in Sources */,
 				8780CB5F1878FF3300646BC1 /* HouseViewController.m in Sources */,

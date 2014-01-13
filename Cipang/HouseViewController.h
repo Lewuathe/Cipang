@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Sasaki Kai. All rights reserved.
 //
 
-#import "PieChartViewController.h"
+#import "PieChart2ViewController.h"
 
-@interface HouseViewController : PieChartViewController {
+@interface HouseViewController : PieChart2ViewController {
     
 }
 

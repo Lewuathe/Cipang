@@ -32,17 +32,17 @@
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *path = [bundle pathForResource:@"house_category_2010" ofType:@"plist"];
     NSDictionary *root = [NSDictionary dictionaryWithContentsOfFile:path];
-    _category = [[root objectForKey:@"Category"] subarrayWithRange:NSMakeRange(3, 7)];
+    _category1 = [[root objectForKey:@"Category"] subarrayWithRange:NSMakeRange(3, 7)];
     
     
-    [chart setDelegate:self];
-    [chart setDataSource:self];
-    [chart setAnimationSpeed:1.0];
-    [chart setLabelFont:[UIFont fontWithName:@"Avenir" size:24]];
-    [chart setLabelRadius:160];
-    [chart setShowPercentage:YES];
-    [chart setPieBackgroundColor:[UIColor colorWithWhite:0.95 alpha:1]];
-    [chart setLabelShadowColor:[UIColor blackColor]];
+    [chart1 setDelegate:self];
+    [chart1 setDataSource:self];
+    [chart1 setAnimationSpeed:1.0];
+    [chart1 setLabelFont:[UIFont fontWithName:@"Avenir" size:24]];
+    [chart1 setLabelRadius:160];
+    [chart1 setShowPercentage:YES];
+    [chart1 setPieBackgroundColor:[UIColor colorWithWhite:0.95 alpha:1]];
+    [chart1 setLabelShadowColor:[UIColor blackColor]];
     
     _sliceColors = [NSArray arrayWithObjects:
                     [UIColor turquoiseColor],
@@ -61,14 +61,32 @@
                     [UIColor colorWithRed:0/255.0 green:82/255.0 blue:67/255.0 alpha:1],
                     nil];
     
-    /*
-    _categoryName = [NSArray arrayWithObjects:
-                     @"主世帯 持ち家", @"主世帯 公営の借家", @"世帯 都市再生機構・公社の借家", @"主世帯 民営の借家",
-                     @"主世帯 給与住宅", @"間借り", @"住宅以外に住む一般世帯", nil];
-     */
-    _categoryName = [NSArray arrayWithObjects:
+
+    _categoryName1 = [NSArray arrayWithObjects:
                      @"Own house", @"Public housing", @"UR", @"Rented house", @"Issued house",
                      @"Lodgings", @"Other", nil];
+    
+    
+    NSString *path2 = [bundle pathForResource:@"house_rent_price" ofType:@"plist"];
+    NSDictionary *root2 = [NSDictionary dictionaryWithContentsOfFile:path2];
+    _category2 = [root2 objectForKey:@"Prices"];
+    
+    
+    [chart2 setDelegate:self];
+    [chart2 setDataSource:self];
+    [chart2 setAnimationSpeed:1.0];
+    [chart2 setLabelFont:[UIFont fontWithName:@"Avenir" size:24]];
+    [chart2 setLabelRadius:160];
+    [chart2 setShowPercentage:YES];
+    [chart2 setPieBackgroundColor:[UIColor colorWithWhite:0.95 alpha:1]];
+    [chart2 setLabelShadowColor:[UIColor blackColor]];
+    
+    _categoryName2 = [NSArray arrayWithObjects:
+                      @"Less ¥50", @"¥50~10,000", @"¥10,000~20,000", @"¥20,000~40,000", @"¥40,000~60,000",
+                      @"¥60,000~80,000", @"¥80,000~100,000", @"¥100,000~150,000", @"¥150,000~200,000",
+                      @"More ¥200,000", @"Unknown", nil];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
